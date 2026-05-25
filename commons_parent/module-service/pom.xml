@@ -1,0 +1,21 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.example.commons</groupId>
+        <artifactId>commons-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>module-service</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- Uses DTOs/interfaces from core -->
+        <dependency>
+            <groupId>com.example.commons</groupId>
+            <artifactId>module-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
