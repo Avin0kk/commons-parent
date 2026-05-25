@@ -39,3 +39,18 @@ Commons_parent/
 
 ### module-web
 - `UserController` - Consumes `UserService` to handle user-related operations
+
+## How to Build
+
+Make sure you have **Java 17+** and **Maven** installed, then run from the root:
+
+```bash
+mvn clean install
+```
+
+## Tech Stack
+- Java 17
+- Apache Maven (Multi-module)
+
+## Author
+Avin Goel
